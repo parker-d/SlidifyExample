@@ -21,12 +21,12 @@ library(forecast)
 DAXts <- EuStockMarkets[,2]
 ```
 
-```{r, fig.show='asis'}
+```{r}
 plot.ts(DAXts)
 ```
 
 
---- .class #id 
+---
 
 ## Would you like to analyze your time series data by adding a regression line?
 
@@ -36,7 +36,7 @@ You can use this FREE Shiny App to add a regression line like this:
 plot.ts(DAXts); abline(lm(DAXts ~ index(DAXts)), col="blue", lwd=3)
 ```
 
---- .class #id 
+---
 
 ## Would you like to decomposing the observed values into the additive components?
 
@@ -46,7 +46,7 @@ You can use this FREE Shiny App to decomposing the time series like this:
 decomp.DAXts <- decompose(DAXts);  plot(decomp.DAXts)
 ```
 
---- .class #id 
+---
 
 ## Are you convinced???
 

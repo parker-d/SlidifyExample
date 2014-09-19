@@ -25,7 +25,7 @@ plot.ts(DAXts)
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 
---- .class #id 
+---
 
 ## Would you like to analyze your time series data by adding a regression line?
 
@@ -38,7 +38,7 @@ plot.ts(DAXts); abline(lm(DAXts ~ index(DAXts)), col="blue", lwd=3)
 
 <img src="assets/fig/unnamed-chunk-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
---- .class #id 
+---
 
 ## Would you like to decomposing the observed values into the additive components?
 
@@ -51,7 +51,7 @@ decomp.DAXts <- decompose(DAXts);  plot(decomp.DAXts)
 
 <img src="assets/fig/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
---- .class #id 
+---
 
 ## Are you convinced???
 
