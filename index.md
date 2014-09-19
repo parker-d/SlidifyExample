@@ -24,6 +24,7 @@ plot.ts(DAXts)
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
+
 --- .class #id 
 
 ## Would you like to analyze your time series data by adding a regression line?

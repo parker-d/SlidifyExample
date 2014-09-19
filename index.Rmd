@@ -21,9 +21,10 @@ library(forecast)
 DAXts <- EuStockMarkets[,2]
 ```
 
-```{r}
+```{r, fig.show='asis'}
 plot.ts(DAXts)
 ```
+
 
 --- .class #id 
 
