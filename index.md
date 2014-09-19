@@ -22,7 +22,7 @@ Now you can use this FREE Shiny App to get a plot like this:
 plot.ts(DAXts)
 ```
 
-<img src="assets/fig/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
 
 --- .class #id 
 

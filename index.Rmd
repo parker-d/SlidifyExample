@@ -21,7 +21,7 @@ library(forecast)
 DAXts <- EuStockMarkets[,2]
 ```
 
-```{r, echo=TRUE, fig.height=5, fig.align='center'}
+```{r}
 plot.ts(DAXts)
 ```
 
